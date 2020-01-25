@@ -8,5 +8,5 @@ def my_find(collection)
   end
 end
 
-collection = (16..100).to_a 
+collection = (31..100).to_a 
 puts my_find(collection){|i| i%3 ==0 and i%5==0}
